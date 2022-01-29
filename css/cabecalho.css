@@ -22,10 +22,6 @@ body{
 
 }
 
-.cabecalho__logo {
-    margin-bottom: 1rem;
-}
-
 .cabecalho__navegacao {
     text-align: center;
 }
@@ -36,6 +32,6 @@ body{
     display: inline-block;
 
     margin-right: .7rem;
-    margin-bottom: 1.25rem;
+
     margin-left: .7rem;
 }

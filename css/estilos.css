@@ -21,6 +21,7 @@
     .cabecalho{
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         border: none;
         color: white;
     }
@@ -76,6 +77,21 @@
 
     .institucional__video{
         max-width: 90vw;
+    }
+    .institucional__contato p{
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        width: 36vw;
+        flex-wrap: nowrap;
+    }
+    .institucional__contato p a{
+        margin: 0 1rem 0 1rem;
+    }
+    .institucional__contato p a.institucional__contato-telefone{
+        margin-left: 0px;
+        min-width: 132.28px;
+        
     }
     .diferenciais{
         display: flex;
